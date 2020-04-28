@@ -1,0 +1,14 @@
+{
+	"name": "AzureDataLakeStore1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDataLakeStore",
+		"typeProperties": {
+			"dataLakeStoreUri": "https://datalake800.azuredatalakestore.net/webhdfs/v1",
+			"tenant": "7282dbaf-e86c-4be9-8b43-fbe21adcee57",
+			"subscriptionId": "7e232508-abec-468b-b201-7eace19d84a8",
+			"resourceGroupName": "TM_Sindhu"
+		}
+	}
+}
